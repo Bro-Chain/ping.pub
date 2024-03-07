@@ -9,6 +9,7 @@ import AutoImport from 'unplugin-auto-import/vite';
 import Pages from 'vite-plugin-pages';
 
 import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite';
+import { nodePolyfills } from "vite-plugin-node-polyfills";
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -57,6 +58,7 @@ export default defineConfig({
       ],
     }),
     DefineOptions(),
+    nodePolyfills(),
   ],
   resolve: {
     alias: {
