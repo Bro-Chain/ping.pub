@@ -1,0 +1,20 @@
+{
+  "chain_name": "Jackal v4",
+  "coingecko": "",
+  "api": ["https://jackal-testnet-v4-rest.brocha.in"],
+  "rpc": ["https://jackal-testnet-v4-rpc.brocha.in"],
+  "snapshot_provider": "",
+  "coin_type": 118,
+  "sdk_version": "0.45.11",
+  "addr_prefix": "jkl",
+  "logo": "/logos/jackal.png",
+  "assets": [
+    {
+      "base": "ujkl",
+      "symbol": "JKL",
+      "exponent": 6,
+      "coingecko_id": "jacka-protocol",
+      "logo": "/logos/jackal.png"
+    }
+  ]
+}
